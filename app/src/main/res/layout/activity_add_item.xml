@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E4E4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".admin.AdminAddItemActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Имя" />
+
+    <EditText
+        android:id="@+id/name_add_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Цена" />
+
+    <EditText
+        android:id="@+id/price_add_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Количество" />
+
+    <EditText
+        android:id="@+id/count_add_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Описание" />
+
+    <EditText
+        android:id="@+id/desc_add_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/add_btn_add_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:width="100dp"
+        android:text="Добавить" />
+</LinearLayout>
